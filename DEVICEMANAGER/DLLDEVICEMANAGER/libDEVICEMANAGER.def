@@ -1,0 +1,22 @@
+; dlltool --base-file C:\Users\ADRIAN~1\AppData\Local\Temp/cca00976.base --output-exp DEVICEMANAGER.exp --dllname DEVICEMANAGER.dll --output-def libDEVICEMANAGER.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\ADRIAN~1\AppData\Local\Temp/cca00976.def --output-lib libDEVICEMANAGER.a
+EXPORTS
+	Java_START_LAUNCH_DvmgGetDevCountN = Java_START_LAUNCH_DvmgGetDevCountN@8 @ 1
+	Java_START_LAUNCH_DvmgGetDevCountN@8 @ 2
+	Java_START_LAUNCH_DvmgGetDevNameN = Java_START_LAUNCH_DvmgGetDevNameN@16 @ 3
+	Java_START_LAUNCH_DvmgGetDevNameN@16 @ 4
+	Java_START_LAUNCH_DvmgStartConfigureDevicesN = Java_START_LAUNCH_DvmgStartConfigureDevicesN@16 @ 5
+	Java_START_LAUNCH_DvmgStartConfigureDevicesN@16 @ 6
+	Java_START_LAUNCH_DvmgStartConfigureDevicesNClose = Java_START_LAUNCH_DvmgStartConfigureDevicesNClose@8 @ 7
+	Java_START_LAUNCH_DvmgStartConfigureDevicesNClose@8 @ 8
+	Java_START_LAUNCH_FreePtrChar = Java_START_LAUNCH_FreePtrChar@12 @ 9
+	Java_START_LAUNCH_FreePtrChar@12 @ 10
+	Java_START_LAUNCH_GetValuePtr = Java_START_LAUNCH_GetValuePtr@16 @ 11
+	Java_START_LAUNCH_GetValuePtr@16 @ 12
+	Java_START_LAUNCH_MallocPtrChar = Java_START_LAUNCH_MallocPtrChar@16 @ 13
+	Java_START_LAUNCH_MallocPtrChar@16 @ 14
+	Java_START_LAUNCH_SendComand = Java_START_LAUNCH_SendComand@20 @ 15
+	Java_START_LAUNCH_SendComand@20 @ 16
+	Java_START_LAUNCH_SendDlgItemComand = Java_START_LAUNCH_SendDlgItemComand@24 @ 17
+	Java_START_LAUNCH_SendDlgItemComand@24 @ 18
+	Java_START_LAUNCH_SetValuePtr = Java_START_LAUNCH_SetValuePtr@20 @ 19
+	Java_START_LAUNCH_SetValuePtr@20 @ 20
